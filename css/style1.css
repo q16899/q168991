@@ -1,3 +1,10 @@
+@media screen and (max-width: 480px) {
+.header,.products {
+	margin-right: 5%;
+	margin-left: 5%;
+}
+}
+
 .header,.products {
 	margin-right: 15%;
 	margin-left: 15%;
