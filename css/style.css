@@ -35,6 +35,21 @@ li,ul{
 	padding: 0px;
 	text-align: center;
 }
+.products-single {
+	float: left;
+	width: 100%;
+}
+
+.logo img {
+	width: 10%;
+	float: right;
+}
+.logo h1 {
+	float: left;
+	width: 50%;
+	color: #0C0;
+	margin-left: 5%;
+}
 .header ul{
 	background-color: #CCC;
 	width: 100%;
@@ -102,22 +117,6 @@ li,ul{
 
 }
 
-.products-single {
-	float: left;
-	width: 100%;
-}
-
-.logo img {
-	width: 10%;
-	float: right;
-}
-.logo h1 {
-	float: left;
-	width: 50%;
-	color: #0C0;
-	margin-left: 5%;
-}
-
 .footer p{
 	margin: 15px;
 	font-size: 14px;
@@ -136,9 +135,9 @@ li,ul{
 
 @media screen and (min-width: 320px) and (max-width: 374px){.items{width:48%;}.content {margin: 2%;}}
 
-@media screen and (min-width: 375px) and (max-width: 484px){.content {margin: 3%;}.logo h1 {font-size: 16px;}}
+@media screen and (min-width: 375px) and (max-width: 484px){.content {margin: 3%;}.logo h1 {font-size: 18px;}}
 
-@media screen and (min-width: 485px) and (max-width: 640px){.content {margin: 4%;}.logo h1 {font-size: 22px;}}
+@media screen and (min-width: 485px) and (max-width: 640px){.content {margin: 4%;}.logo h1 {font-size: 24px;}}
 
 @media screen and (min-width: 641px) and (max-width: 800px){.content {margin: 5%;}.logo h1 {font-size: 28px;}}
 
